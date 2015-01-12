@@ -1,2 +1,1416 @@
-Enter file contents here
-  Hellow test github
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> @徐師易經陽宅程式@(用生年卦位流年紫白九星)</title>
+<meta name="Descroption" content="天文與曆法資料引用bieyu.com">
+<meta name=keywords content="@徐師易經陽宅程式@(用生年卦位流年紫白九星)亂數表卦象;萬年曆;紫微斗數;易經八卦;陽宅風水 ;高中數學;農(陽)曆;節氣;天干地支;生肖;徐其堂老師休閒園地">
+<link rel="stylesheet" href="jquery.mobile.min.css">
+<script src="jquery-1.7.1.min.js"></script>
+<script src="jquery.mobile.min.js"></script>
+</head>
+<body>
+ <div data-role="page" id="home">
+  <div data-role="header">
+  <h2>@徐師易經陽宅程式@內外境兼備形氣局</h2>
+  <h1> (用生年卦位流年紫白九星)</h1>
+  </div>
+  <div data-role="content">
+     <div id="main_content">
+	 <h3>[請依序輸入選擇西元年份</h3>
+     </div>
+      
+	<form id="form14_1_2" name="form14_1_2">
+       <div  data-role="fieldcontain">
+        <label for="opd1">姓名：</label>
+        <input type="text" name="opd1" id="opd1"
+               value=" " data-mini="true"/>
+             <!--  value="5" data-mini="true"/> -->
+      </div>
+      <div>  性別：
+	<select size="1" name="opd2">
+        <option>男</option><option>女</option>
+     </select>
+   	</div>
+     
+   <div>
+	請選擇生年份：
+	<select size="1" name="deptb">
+	<option>1920</option><option>1921</option><option>1922</option><option>1923</option><option>1924</option>
+    <option>1925</option><option>1926</option><option>1927</option><option>1928</option><option>1929</option>
+	 <option>1930</option><option>1931</option><option>1933</option><option>1933</option><option>1934</option>
+    <option>1935</option><option>1936</option><option>1937</option><option>1938</option><option>1939</option>
+	 <option>1940</option><option>1941</option><option>1944</option><option>1943</option><option>1944</option>
+    <option>1945</option><option>1946</option><option>1947</option><option>1948</option><option>1949</option>
+	 <option>1950</option><option>1951</option><option>1955</option><option>1953</option><option>1954</option>
+    <option>1955</option><option>1956</option><option>1957</option><option>1958</option><option>1959</option>
+	 <option>1960</option><option>1961</option><option>1966</option><option>1963</option><option>1964</option>
+    <option>1965</option><option>1966</option><option>1967</option><option>1968</option><option>1969</option>
+	 <option>1970</option><option>1971</option><option>1977</option><option>1973</option><option>1974</option>
+    <option>1975</option><option>1976</option><option>1977</option><option>1978</option><option>1979</option>
+	 <option>1980</option><option>1981</option><option>1988</option><option>1983</option><option>1984</option>
+    <option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option>
+	  <option>1990</option><option>1991</option><option>1999</option><option>1993</option><option>1994</option>
+    <option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option>
+	 <option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option>
+    <option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option>
+	  <option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option>
+    <option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option>
+	  <option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option>
+    <option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option>
+	 </select>
+   	</div>
+         <div>
+	請選擇流年份：
+	<select size="1" name="depty">
+	<option>1920</option><option>1921</option><option>1922</option><option>1923</option><option>1924</option>
+    <option>1925</option><option>1926</option><option>1927</option><option>1928</option><option>1929</option>
+	 <option>1930</option><option>1931</option><option>1933</option><option>1933</option><option>1934</option>
+    <option>1935</option><option>1936</option><option>1937</option><option>1938</option><option>1939</option>
+	 <option>1940</option><option>1941</option><option>1944</option><option>1943</option><option>1944</option>
+    <option>1945</option><option>1946</option><option>1947</option><option>1948</option><option>1949</option>
+	 <option>1950</option><option>1951</option><option>1955</option><option>1953</option><option>1954</option>
+    <option>1955</option><option>1956</option><option>1957</option><option>1958</option><option>1959</option>
+	 <option>1960</option><option>1961</option><option>1966</option><option>1963</option><option>1964</option>
+    <option>1965</option><option>1966</option><option>1967</option><option>1968</option><option>1969</option>
+	 <option>1970</option><option>1971</option><option>1977</option><option>1973</option><option>1974</option>
+    <option>1975</option><option>1976</option><option>1977</option><option>1978</option><option>1979</option>
+	 <option>1980</option><option>1981</option><option>1988</option><option>1983</option><option>1984</option>
+    <option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option>
+	  <option>1990</option><option>1991</option><option>1999</option><option>1993</option><option>1994</option>
+    <option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option>
+	 <option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option>
+    <option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option>
+	  <option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option>
+    <option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option>
+	  <option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option>
+    <option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option>
+	 </select>
+   	</div>
+   <div>
+	公司(機關)宅坐山卦：
+	<select size="1" name="depth">
+	 <option>壬山丙向正坐向</option><option>壬山丙向兼子午</option><option>壬山丙向兼亥巳</option>
+<option>子山午向正坐向</option><option>子山午向兼壬丙</option><option>子山午向兼癸丁</option>
+<option>癸山丁向正坐向</option><option>癸山丁向兼子午</option><option>癸山丁向兼丑未</option> 
+<option>丑山未向正坐向</option><option>丑山未向兼癸丁</option><option>丑山未向兼艮坤</option> 
+<option>艮山坤向正坐向</option><option>艮山坤向兼丑未</option><option>艮山坤向兼寅申</option> 
+<option>寅山申向正坐向</option><option>寅山申向兼艮坤</option><option>寅山申向兼甲庚</option> 
+<option>甲山庚向正坐向</option><option>甲山庚向兼寅申</option><option>甲山庚向兼卯酉</option> 
+<option>卯山酉向正坐向</option><option>卯山酉向兼甲庚</option><option>卯山酉向兼乙辛</option> 
+<option>乙山辛向正坐向</option><option>乙山辛向兼卯酉</option><option>乙山辛向兼辰戌</option> 
+<option>辰山戌向正坐向</option><option>辰山戌向兼乙辛</option><option>辰山戌向兼巽乾</option> 
+<option>巽山乾向正坐向</option><option>巽山乾向兼辰戌</option><option>巽山乾向兼巳亥</option> 
+<option>巳山亥向正坐向</option><option>巳山亥向兼巽乾</option><option>巳山亥向兼丙壬</option> 
+<option>丙山壬向正坐向</option><option>丙山壬向兼巳亥</option><option>丙山壬向兼午子</option> 
+<option>午山子向正坐向</option><option>午山子向兼丙壬</option><option>午山子向兼丁癸</option> 
+<option>丁山癸向正坐向</option><option>丁山癸向兼午子</option><option>丁山癸向兼未丑</option> 
+<option>未山丑向正坐向</option><option>未山丑向兼丁癸</option><option>未山丑向兼坤艮</option>
+<option>坤山艮向正坐向</option><option>坤山艮向兼丑未</option><option>坤山艮向兼申寅</option> 
+<option>申山寅向正坐向</option><option>申山寅向兼坤艮</option><option>申山寅向兼庚甲</option> 
+<option>庚山甲向正坐向</option><option>庚山甲向兼甲寅</option><option>庚山甲向兼酉卯</option> 
+<option>酉山卯向正坐向</option><option>酉山卯向兼庚甲</option><option>酉山卯向兼辛乙</option> 
+<option>辛山乙向正坐向</option><option>辛山乙向兼酉卯</option><option>辛山乙向兼戌辰</option> 
+<option>戌山辰向正坐向</option><option>戌山辰向兼辛乙</option><option>戌山辰向兼乾巽</option> 
+<option>乾山巽向正坐向</option><option>乾山巽向兼戌辰</option><option>乾山巽向兼亥巳</option>
+<option>亥山巳向正坐向</option><option>亥山巳向兼乾巽</option><option>亥山巳向兼壬丙</option> 
+ </select>
+   	</div>
+ <div>  三元九大運：
+	<select size="1" name="deptn">
+       <option>9</option><option>8</option><option>7</option><option>6</option><option>5</option>
+       <option>4</option><option>3</option><option>2</option><option>1</option>
+     </select>
+   	</div>
+        <!-- <div data-role="fieldcontain">
+         <label for="msg">使用訊息視窗</label>
+         <input type="checkbox" name="msg" id="msg" 
+                checked/>
+      </div>   -->  
+     <!-- <a href="#" data-role="button" onclick="cal();"
+         data-inline="true" data-mini="true">計算</a> -->
+        <a href="#" data-role="button" onclick="calld();"
+         data-inline="true" data-mini="true">排算</a>   
+    </form>
+    <div id="output"></div>
+  </div>
+</div>
+  <!--<BODY bgcolor="#FFFFFF">
+  <CENTER><H2> 易 經 八 卦 盤 與 評 論 表 如 下<HR></H2>
+  <TABLE Border=1 Width=60%  BGCOLOR=#FFFF00>-->
+   <!--<TR><TD width=30>卦名</TD><TD width=30>成卦</TD><TD width =30>變爻</TD><TD width =30>卦名</TD><TD width =30>之卦</TD></TR>
+   // ''Dim Row1 ,Row2 ,Row3 ,Row4 ,Row5 ,Row6 ,Row7 ,Row8 ,RowT
+    // Response.Write (RowT)
+    document.Write (RowT);-->
+   <!--</TABLE></CENTER>
+  </BODY> -->
+    <!--第二頁-->
+  
+	<script>
+	    function calld() {
+	    
+	        var TNam, TNsx, TNhs,TNhs1,TNhs2, InpLn, InpSFx, InpSx, InpFx, InpAnd, InpAsx, InpAfx;
+	        var TNbr, TNyr,Nob, Noy ,BNum, YNum ,RTNBY ,RBYNS,RBN, RYN;
+	        //var opd = document.form14_1_2.opd1;
+	        // var NNo1 = parseInt(opd.value);
+	        var opd = document.form14_1_2.opd1;
+	        var Name = (opd.value);
+	        opd = document.form14_1_2.opd2;
+	        var Nsex = (opd.value);
+	        opd = document.form14_1_2.deptb;
+	        var No3 = parseInt(opd.value);
+	        //''var utcDate = FRPK(NNo1 , No2 , No3 );
+	        //''var utcDatn = utcDate.substr(2, 1);
+	        opd = document.form14_1_2.depty;
+	        var No4 = parseInt(opd.value);
+	        //var No4 = (opd.value);
+	        opd = document.form14_1_2.depth;
+	        var No5 = (opd.value);
+	        opd = document.form14_1_2.deptn;
+	        var No6 = parseInt(opd.value);
+
+	        var TNam = Name  //Request("Name")
+	        var TNsx = Nsex   //Request("Sex")
+	        var TNbr = No3    //Request("BYNUM")
+	        var TNyr = No4    //Request("LYNUM")
+	        var InpLn = No6  //Request("LNNUM")
+	        var InpSFx = No5  //Request("HSNUM")
+	        //TNhs=Request("HSNUM")
+	        //TNhs2 = InpSFx.substr(1-1, 1);
+	        TNhs2 = InpSFx.substr(0, 1);
+	        InpSx = InpSFx.substr(0, 1);
+	        InpFx = InpSFx.substr(2, 1);
+	        InpAnd = InpSFx.substr(4, 1);
+	        InpAsx = InpSFx.substr(5, 1);
+	        InpAfx = InpSFx.substr(6, 1);
+	        Nob = parseInt(TNbr);
+	        Noy = parseInt(TNyr);
+     
+	        //Response.Write(InpSFx)
+	        // var o = document.getElementById("output");
+	        //  o.innerHTML = "運算結果如下: " + InpSFx;
+	        // o.innerHTML = "運算結果如下: " + No4 + No5 + No6;
+	        //////////////////////////////////////////////////////  
+	        
+	        var R = Array(" ", "[坎宮]", "[坤宮]", "[震宮]", "[巽宮]", "[中宮]", "[乾宮]", "[兌宮]", "[艮宮]", "[離宮]", "[黃宮]");
+	        var ZNAM = Array("離", "坎", "坤", "震", "巽", "黃", "乾", "兌", "艮", "離");
+	        var ZNUM = Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+	        var TNTFS = Array("0", "壬", "子", "癸", "丑", "艮", "寅", "甲", "卯", "乙", "辰", "巽", "巳", "丙", "午", "丁", "未", "坤", "申", "庚", "酉", "辛", "戌", "乾", "亥");
+	        //var TNTFS() = {"0", "壬", "坎", "癸", "丑", "艮", "寅", "甲", "震", "乙", "辰", "巽", "巳", "丙", "離", "丁", "未", "坤", "申", "庚", "兌", "辛", "戌", "乾", "亥"}
+	        // var TNTFBN() = {"0", "112", "121", "131", "817", "827", "839", "311", "322", "332", "416", "426", "436", "917", "929", "939", "212", "222", "231", "719", "727", "737", "616", "626", "636"}
+	        var TNTFN = Array("00", "11", "12", "13", "81", "82", "83", "31", "32", "33", "41", "42", "43", "91", "92", "93", "21", "22", "23", "71", "72", "73", "61", "62", "63");
+	        var I, J, k, n, BBK;
+	        for (I = 1 ; I<= 24; I++) {
+	            // For I = 1 To 24
+	            if (TNTFS[I] == TNhs2) { //Then
+	                TNhs1 = TNTFN[I];
+	                //TNhs = ZNAM(CInt(Left(TNhs1, 1)));
+	                TNhs = ZNAM[parseInt(TNhs1.substr(0, 1))];
+	                break ;  //Exit For
+	            }  //End If
+	        } ; //Next
+	        //  Response.Write("坐山:" & TNhs)
+	        // var o = document.getElementById("output");
+	        //  o.innerHTML = "運算結果如下: " + TNhs1+ TNhs;
+	        //var ASTR1 = new Array(9);
+	        var A = new Array(60), B = new Array(60);
+	       // 
+	    // Select Case TNsx
+	     switch (TNsx) {
+	        case "男":
+	            if (Nob >= 1863) { //  Then
+	                BNum = (11 - ((Nob - 1863) % 9)) % 9;
+	                // Else
+	                // Response.Write("值年超上元範圍")
+	            } //End If
+	            if (BNum == 5) { // Then
+	                BNum = 2;
+	            } //End If
+	            break;
+	        case "女":
+	            if (Nob >= 1863) { // Then
+	                BNum = (4 + ((Nob - 1863) % 9)) % 9;
+	                //Else
+	                // Response.Write("值年超上元範圍")
+	            } // End If
+	            if (BNum == 5) { // Then
+	                BNum = 8;
+	            } //End If
+	            break;
+	    } //  End Select
+	     if (BNum == 0) { // Then
+	         BNum = 9;
+	     } // End If
+	     if (Noy >= 1863) { // Then
+	         YNum = (11 - ((Noy - 1863) % 9)) % 9 ;
+	         //Else
+	         // Response.Write("值年超上元範圍")
+	     } //  End If
+	        // If YNum = 5 Then  //八宅生(流)年卦才使用"
+	        //Select Case TNsx
+	        //    Case "男"
+	        // YNum = 2
+	        //     Case "女"
+	        //  YNum = 8
+	        //  End Select
+	        //'  End If
+	     if (YNum == 0) {  //Then
+	         YNum = 9 ;
+	     } //End If
+
+	        //Response.Write("生流年卦:" & BNum & ";" & YNum & "<br>")
+	        //''var ZNAMT8(8), ZNAMT7(8), ZNAMT6(8), ZNAMT5(8), ZNAMT4(8), ZNAMT3(8), ZNAMT2(8), ZNAMT1(8), ZNAMT0(8) As Array
+	        //''var ZNAMT(8, 8) As Array//
+	     k = 1;
+	     var ZDB1 = Array("0", "6", "1", "8", "3", "4", "9", "2", "7");
+	     var ZDBT0 = Array("生年\九星", "伏位", "六煞", "天醫", "五鬼", "禍害", "絕命", "延年", "生氣");
+	     var ZDBT1 = Array("6", "6", "1", "8", "3", "4", "9", "2", "7");
+	     var ZDBT2 = Array("1", "1", "6", "3", "8", "7", "2", "9", "4");
+	     var ZDBT3 = Array("8", "8", "3", "6", "1", "9", "4", "7", "2");
+	     var ZDBT4 = Array("3", "3", "8", "1", "6", "2", "7", "4", "9");
+	     var ZDBT5 = Array("4", "4", "7", "9", "2", "6", "8", "3", "1");
+	     var ZDBT6 = Array("9", "9", "2", "4", "7", "8", "6", "1", "3");
+	     var ZDBT7 = Array("2", "2", "9", "7", "4", "3", "1", "6", "8");
+	     var ZDBT8 = Array("7", "7", "4", "2", "9", "1", "3", "8", "6");
+	        //Dim ZNAMTT(8, 8)   // x[5][12] = 3.0;
+	     var ZDBTT = new Array(8);
+	     var h, i, j, k, m, n;
+	        //For i = 0 To 8
+	     for (h = 0 ; h <= 8; h++) {
+	         ZDBTT[h] = new Array(8);
+	     };   ///Next
+	     for (i = 0 ; i <= 8; i++) {
+	         ZDBTT[0][i] = ZDBT0[i];
+	         ZDBTT[1][i] = ZDBT1[i];
+	         ZDBTT[2][i] = ZDBT2[i];
+	         ZDBTT[3][i] = ZDBT3[i];
+	         ZDBTT[4][i] = ZDBT4[i];
+	         ZDBTT[5][i] = ZDBT5[i];
+	         ZDBTT[6][i] = ZDBT6[i];
+	         ZDBTT[7][i] = ZDBT7[i];
+	         ZDBTT[8][i] = ZDBT8[i];
+	     };   // Next
+	     for (j = 1 ; j <= 8; j++) {
+	         if (ZDB1[j] == BNum) {    //Then
+	             m = j;
+	             break;
+	         }
+	     } //End for
+	     for (i = 1 ; i <= 8; i++) {
+	         A[k + i] = "(" + ZDBT0[i] + ")";
+	         B[k + i] = ZDBTT[m][i];
+	     }
+	        //////////////////////////////////////////
+	     k = 10;
+
+	     var ZDY1 = Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+	     var ZDYT0 = Array("流年\紫白", "一白水", "二黑土", "三碧木", "四綠木", "五黃土", "六白金", "七赤金", "八白土", "九紫火");
+	     var ZDYT1 = Array("1", "5", "6", "7", "8", "9", "1", "2", "3", "4");
+	     var ZDYT2 = Array("2", "4", "5", "6", "7", "8", "9", "1", "2", "3");
+	     var ZDYT3 = Array("3", "3", "4", "5", "6", "7", "8", "9", "1", "2");
+	     var ZDYT4 = Array("4", "2", "3", "4", "5", "6", "7", "8", "9", "1");
+	     var ZDYT5 = Array("5", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+	     var ZDYT6 = Array("6", "9", "1", "2", "3", "4", "5", "6", "7", "8");
+	     var ZDYT7 = Array("7", "8", "9", "1", "2", "3", "4", "5", "6", "7");
+	     var ZDYT8 = Array("8", "7", "8", "9", "1", "2", "3", "4", "5", "6");
+	     var ZDYT9 = Array("9", "6", "7", "8", "9", "1", "2", "3", "4", "5");
+	        //Dim ZNAMTT(8, 8)   // x[5][12] = 3.0;
+	     var ZDYTT = new Array(9);
+	     var h, i, j, k, m, n;
+	        //For i = 0 To 8
+	     for (h = 0 ; h <= 9; h++) {
+	         ZDYTT[h] = new Array(9);
+	     };   ///Next
+	     for (i = 0 ; i <= 9; i++) {
+	         ZDYTT[0][i] = ZDYT0[i];
+	         ZDYTT[1][i] = ZDYT1[i];
+	         ZDYTT[2][i] = ZDYT2[i];
+	         ZDYTT[3][i] = ZDYT3[i];
+	         ZDYTT[4][i] = ZDYT4[i];
+	         ZDYTT[5][i] = ZDYT5[i];
+	         ZDYTT[6][i] = ZDYT6[i];
+	         ZDYTT[7][i] = ZDYT7[i];
+	         ZDYTT[8][i] = ZDYT8[i];
+	     };   // Next
+	     for (j = 1 ; j <= 9; j++) {
+	         if (ZDY1[j] == YNum) {    //Then
+	             m = j;
+	             break;
+	         }
+	     } //End for
+	     for (i = 1 ; i <= 9; i++) {
+	         A[k + i] = "(" + ZDYT0[i] + ")";
+	         B[k + i] = ZDYTT[m][i];
+	         if (ZDYTT[m][i] == 5) {   //then
+	             A[k + i] = "流年星" + A[k + i];
+	         } //End if   
+	     }  //End for
+	        ///////////////////////////////////////////////////////////////
+	     k = 20;
+	     var ZHS1 = Array("離", "坎", "坤", "震", "巽", "中", "乾", "兌", "艮", "離");
+	     var ZHST0 = Array("宅坐飛卦", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+	     var ZHST1 = Array("坎", "6白(生氣)", "7赤(生氣)", "8白(煞氣)", "9紫(死氣)", "1白(坎宅)", "2黑(煞氣)", "3碧(退氣)", "4綠(退氣)", "5黃(五黃煞)");
+	     var ZHST2 = Array("坤", "7赤(退氣)", "8白(旺氣)", "9紫(生氣)", "1白(死氣)", "2黑(坤宅)", "3碧(煞氣)", "4綠(煞氣)", "5黃(五黃煞)", "6白(退氣)");
+	     var ZHST3 = Array("震", "8白(死氣)", "9紫(退氣)", "1白(生氣)", "2黑(死氣)", "3碧(震宅)", "4綠(旺氣)", "5黃(五黃煞)", "6白(煞氣)", "7赤(煞氣)");
+	     var ZHST4 = Array("巽", "9紫(退氣)", "1白(生氣)", "2黑(死氣)", "3碧(旺氣)", "4綠(巽宅)", "5黃(五黃煞)", "6白(煞氣)", "7赤(煞氣)", "8白(死氣)");
+	     var ZHST5 = Array("中", "1白(死氣)", "2黑(旺氣)", "3碧(煞氣)", "4綠(煞氣)", "5黃(黃宅)", "6白(退氣)", "7赤(退氣)", "8白(旺氣)", "9紫(生氣)");
+	     var ZHST6 = Array("乾", "2黑(生氣)", "3碧(死氣)", "4綠(死氣)", "5黃(五黃煞)", "6白(乾宅)", "7赤(旺氣)", "8白(生氣)", "9紫(煞氣)", "1白(退氣)");
+	     var ZHST7 = Array("兌", "3碧(死氣)", "4綠(死氣)", "5黃(五黃煞)", "6白(旺氣)", "7赤(兌宅)", "8白(生氣)", "9紫(煞氣)", "1白(退氣)", "2黑(生氣)");
+	     var ZHST8 = Array("艮", "4綠(煞氣)", "5黃(五黃煞)", "6白(退氣)", "7赤(退氣)", "8白(艮宅)", "9紫(生氣)", "1白(死氣)", "2黑(旺氣)", "3碧(煞氣)");
+	     var ZHST9 = Array("離", "5黃(五黃煞)", "6白(死氣)", "7赤(死氣)", "8白(退氣)", "9紫(離宅)", "1白(煞氣)", "2黑(退氣)", "3碧(生氣)", "4綠(生氣)");
+	     var ZHSTT = new Array(9);
+	     var h, i, j, k, m, n;
+	        //For i = 0 To 8
+	     for (h = 0 ; h <= 9; h++) {
+	         ZHSTT[h] = new Array(9);
+	     };   ///Next
+	     for (i = 0 ; i <= 9; i++) {
+	         ZHSTT[0][i] = ZHST0[i];
+	         ZHSTT[1][i] = ZHST1[i];
+	         ZHSTT[2][i] = ZHST2[i];
+	         ZHSTT[3][i] = ZHST3[i];
+	         ZHSTT[4][i] = ZHST4[i];
+	         ZHSTT[5][i] = ZHST5[i];
+	         ZHSTT[6][i] = ZHST6[i];
+	         ZHSTT[7][i] = ZHST7[i];
+	         ZHSTT[8][i] = ZHST8[i];
+	     };   // Next
+	     for (j = 1 ; j <= 9; j++) {
+	         if (ZHS1[j] == TNhs) {    //Then
+	             m = j;
+	             break;
+	         }
+	     } //End for
+	     for (i = 1 ; i <= 9; i++) {
+	         //A[k + i] = "(" + ZHST0[i] + ")";
+	         //B[k + i] = ZHSTT[m][i];
+	         //B[k + i] =  ZHST0[i] ;
+	         //A[k + i] = "(" + ZHSTT[m][i] + ")";
+	         B[k + i] = ZHST0[i];
+	         A[k + i] = ZHSTT[m][i];
+	         if (ZHST0[i] == 5) {   //then
+	             A[k + i] = "坐山星" + A[k + i];
+	         } //End if   
+	     }  //End for
+	        //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' 
+	      // k = 30;
+	      //  var ASTR1 = STRLSF(InpLn);
+	      //  var ASTR2 = STRSS(InpLn, InpSx, InpAnd, InpAsx);
+	      //  var ASTR3 = STRSS(InpLn, InpFx, InpAnd, InpAfx);
+	        // Dim ASTR3 = STRSS(InpLn, InpFn, "正兼")
+	        //  var o = document.getElementById("output");
+	        //  o.innerHTML = "運算結果如下: " + TNhs + ASTR3[3];
+	        // }
+	      k = 30;
+	        var ASTR1 = STRLSF(InpLn);
+	        var ASTR2 = STRSS(InpLn, InpSx, InpAnd, InpAsx);
+	        var ASTR3 = STRSS(InpLn, InpFx, InpAnd, InpAfx);
+	        // Dim ASTR3 = STRSS(InpLn, InpFn, "正兼")
+	        /// var o = document.getElementById("output");
+	        //o.innerHTML = "運算結果如下: " + TNhs + ASTR1[5];   
+	       ///  o.innerHTML = "運算結果如下: " + TNhs + ASTR2;
+	       /// }
+	        /////////////////////////////////////////////////////////////
+	     for (n = 1 ; n <= 9; n++) {
+	         //For n = 1 To 9
+	         B[30 + n] = n;
+	         A[30 + n] = ASTR1[n] + "L";
+	         B[40 + n] = n;
+	         A[40 + n] = ASTR2[n] + "S";
+	         B[50 + n] = n;
+	         A[50 + n] = ASTR3[n] + "F";
+	     }; // Next
+	      //var o = document.getElementById("output");
+	     //   o.innerHTML = "運算結果如下: " + A[53];
+	    //  }  //End  calld function
+	        //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' 
+	     for (J = 0 ; J <= 60 ; J++) {
+	         //For J = 0 To 60
+	         BBK = parseInt(B[J]);
+	         switch (BBK) {
+	             //Select Case BBK
+	             //case "1":
+	             case 1:
+	                 //R(1)=Trim(R(1))+","& Trim(A(j))
+	                 R[1] = R[1] + "<br>" + A[J];
+	                 break;
+	             case 2:
+	                 R[2] = R[2] + "<br>" + A[J];
+	                 break;
+	             case 3:
+	                 R[3] = R[3] + "<br>" + A[J];
+	                 break;
+	             case 4:
+	                 R[4] = R[4] + "<br>" + A[J];
+	                 break;
+	             case 5:
+	                 R[5] = R[5] + "<br>" + A[J];
+	                 break;
+	             case 6:
+	                 R[6] = R[6] + "<br>" + A[J];
+	                 break;
+	             case 7:
+	                 R[7] = R[7] + "<br>" + A[J];
+	                 break;
+	             case 8:
+	                 R[8] = R[8] + "<br>" + A[J];
+	                 break;
+	             case 9:
+	                 R[9] = R[9] + "<br>" + A[J];
+	                 break;
+	             default:
+	                 R[10] = R[10] + "<br>" + A[J];
+	         } //  End Select
+	     }; //Next
+
+	        //'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''      
+	     var Row1 = "<CENTER><TABLE Border=1 BGCOLOR=#FFFF00 >" + "<TR>" + "<TD width=120>卦名" + "</TD>" + "<TD width=120>(生成卦]</TD>" + "<TD width =120>流之卦</TD>" + "</TR>";
+	     var Row2 = "<TR>" + "<TD width=120>" + R[4] + "</TD>" + "<TD width=120>" + R[9] + "</TD>" + "<TD width =120>" + R[2] + "</TD>" + "</TR>";
+	     var Row3 = "<TR>" + "<TD width=120>" + R[3] + "</TD>" + "<TD width=120>" + R[5] + "</TD>" + "<TD width =120>" + R[7] + "</TD>" + "</TR>";
+	     var Row4 = "<TR>" + "<TD width=120>" + R[8] + "</TD>" + "<TD width=120>" + R[1] + "</TD>" + "<TD width =120>" + R[6] + "</TD>" + "</TR>";
+	     var Row5 = "<TR style='writing-mode:bt-rl' width =150>" + "尊重著作權:<u>免費分享</u>" + "</TR>" + "</TABLE>";
+	     var RowT = Row1 + Row2 + Row3 + Row4 + Row5;
+	        // Response.Write(RowT)
+	     var o = document.getElementById("output");
+	        o.innerHTML = "運算結果如下: " + RowT;
+	      // o.innerHTML = "運算結果如下: " + R[2];
+         }  //End calld function 
+
+    	</script>
+       <!--第一頁-->
+	  <script> 
+     //'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	     /////////////////////////////////////////////////////////
+	        //var PKA = new Array(
+	        var ZNAM = new Array("離", "坎", "坤", "震", "巽", "黃", "乾", "兌", "艮", "離");
+	        var ZNUM = new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9");
+	        //''var ZNFS()={"午","子","坤","卯","巽","中","乾","酉","艮","午");  
+	        var TNTFS = new Array("0", "壬", "子", "癸", "丑", "艮", "寅", "甲", "卯", "乙", "辰", "巽", "巳", "丙", "午", "丁", "未", "坤", "申", "庚", "酉", "辛", "戌", "乾", "亥");
+	        //''var TNTFS = new Array("0", "壬", "坎", "癸", "丑", "艮", "寅", "甲", "震", "乙", "辰", "巽", "巳", "丙", "離", "丁", "未", "坤", "申", "庚", "兌", "辛", "戌", "乾", "亥");
+	        //'' var TNTFBN = new Array("0", "112", "121", "131", "817", "827", "839", "311", "322", "332", "416", "426", "436", "917", "929", "939", "212", "222", "231", "719", "727", "737", "616", "626", "636");
+	        var TNTFN = new Array("00", "11", "12", "13", "81", "82", "83", "31", "32", "33", "41", "42", "43", "91", "92", "93", "21", "22", "23", "71", "72", "73", "61", "62", "63");
+	        var TNTFX = new Array("0", "陽", "陰", "陰", "陰", "陽", "陽", "陽", "陰", "陰", "陰", "陽", "陽", "陽", "陰", "陰", "陰", "陽", "陽", "陽", "陰", "陰", "陰", "陽", "陽");
+	        var TNSBN = new Array("0", "2", "1", "1", "7", "7", "9", "1", "2", "2", "6", "6", "6", "7", "9", "9", "2", "2", "1", "9", "7", "7", "6", "6", "6");
+  
+	        function STRLSF(LN) {
+               var i, j, k, m, n, xo, yo, tk, pkn ;
+	            var APK= new Array(9), ATR= new Array(9);
+	            //'' var LK(10), LLUK(10), LR(60), LYER(60)
+	            //''var TDAYS = Split(SDAY, ":")
+	            //''var TDAYS1 = CInt(TDAYS(0))
+	            //'' var TDAYS2 = CInt(TDAYS(1))
+	            for (i = 1 ; i <= 9; i++) {
+	              //For i = 1 To 9 {
+	                if (ZNUM[i] == parseInt(LN)) {  //Then
+	                tk = i ;
+	                break ; //Exit For
+	               } //End If
+	           };  //Next
+	            for (j = 1 ; j <= 9; j++) {
+	                // For j = 1 To 9
+	                //pkn = ((i + 4) + j + 9) % 9;
+	                pkn = ((tk + 4) + j + 9) % 9;
+	                if (pkn == 0) { // Then
+	                    pkn = 9 ;
+	                } //End If
+          
+	                APK[j] = j;
+	                ATR[j] = ZNUM[pkn];
+	            };// Next
+	          return  ATR;
+	        //'' Response.Write(ATR(8))
+	    } // End Function
+	    /////////////////////////////////////////////////////////////
+	        function STRLSB(LN) {
+	            var i, j, k, m, n, xo, yo, tk, pkn;
+	            var APK = new Array(9), ATR = new Array(9);
+	            //'' var LK(10), LLUK(10), LR(60), LYER(60)
+	            //''var TDAYS = Split(SDAY, ":")
+	            //''var TDAYS1 = CInt(TDAYS(0))
+	            //'' var TDAYS2 = CInt(TDAYS(1))
+	            for (i = 1 ; i <= 9; i++) {
+	                //For i = 1 To 9 {
+	                if (ZNUM[i] == parseInt(LN)) {  //Then
+	                    tk = i;
+	                    break; //Exit For
+	                } //End If
+	            };  //Next
+	            for (j = 1 ; j <= 9; j++) {
+	                // For j = 1 To 9
+	                //pkn = ((i + 5) - j + 9) % 9;
+	                pkn = ((tk + 5) - j + 9) % 9;
+	                if (pkn == 0) { // Then
+	                    pkn = 9;
+	                } //End If
+
+	                APK[j] = j;
+	                ATR[j] = ZNUM[pkn];
+	            };// Next
+	            return ATR;
+	            //'' Response.Write(ATR(8))
+	        } // End Function
+	    /////////////////////////////////////////////////////////////////
+	        function STRSS(LN, SX, Asf, sfx) {
+	            var i, j, k, m, n, tkpn, tksn, gtkn, tkpn2, tksn2, gtkn2;
+	            var sexy, tkps, sexy2, tkps2, xy, adx, adpk, sbtn;
+	            var APK=new Array(9), ATR1=new Array(9);
+	            // Dim LK(10), LLUK(10), LR(60), LYER(60)
+	            //Dim TDAYS = Split(SDAY, ":")
+	            //Dim TDAYS1 = CInt(TDAYS(0))
+	            // Dim TDAYS2 = CInt(TDAYS(1))
+	            for (i = 1 ; i<= 24; i++) {
+	                if (TNTFS[i] == SX) { //Then
+	                    //For i = 1 To 24
+	                    //If TNTFS(i) = Trim(SX) Then
+	                    tkps = TNTFN[i];
+	                    sexy = TNTFX[i];
+	                    break;//Exit For
+	                } //End If
+	            } ;//Next
+	           // tkpn = CInt(Left(tkps, 1))
+	           // tksn = CInt(Right(tkps, 1))
+	            tkpn = parseInt(tkps.substr(0, 1));
+	             tksn = parseInt(tkps.substr(1, 1));
+	            //tksn = tkps.substr(1, 1);
+	            //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' 
+	            //adx = Trim(Left(Ax, 1))
+	            // adpk = Trim(Right(Ax, 1))
+	            adx = Asf ;
+	            if (adx == "正") { // Then
+	                adpk = SX;
+	            }
+	            else {
+	                //adpk = Trim(Right(Ax, 1))
+	                adpk = sfx;
+	            } //End If
+	            for (j = 1 ; j<= 24; j++) {
+	                 // For j = 1 To 24
+	                    if (TNTFS[j] == adpk) { //Then
+	                        tkps2 = TNTFN[j];
+	                        sexy2 = TNTFX[j];
+	                        break;// Exit For
+	                    } // End If
+	                } ;//Next
+	                //tkpn2 = CInt(Left(tkps2, 1))
+	                //tksn2 = CInt(Right(tkps2, 1))
+	                tkpn2 = parseInt(tkps2.substr(0, 1));
+	                tkSn2 = parseInt(tkps2.substr(1, 1));
+	                //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	                var ASTR = STRLSF(LN);
+	                gtkn = ASTR[tkpn];
+	                if (gtkn != 5) {// Then
+	                    for (k = 1 ; k<= 24; k++) {
+	                        // For k = 1 To 24
+	                        //if (TNTFN[k] == parseInt(gtkn + tksn)) {  //Then
+	                        if (TNTFN[k] == parseInt(gtkn + tksn)) {  //Then
+	                            xy = TNTFX[k];
+	                            sbtn = parseInt(TNSBN[k]);
+	                            break; //Exit For
+	                        }  //End If
+	                    } ;  //Next
+	                }
+	                else {
+	                    // gtkn = 5
+	                    sbtn = 5;
+	                    //xy = Trim(sexy);
+	                    xy = sexy;
+	                } // End If
+	             
+	         if (adx == "正") {  // Then
+	             switch (xy) {
+	                        // Select Case xy
+	                        case "陽" :
+	                             // ATR1 = STRLSF(gtkn)
+	                            ATR1 = STRLSF(gtkn);
+	                            break;
+	                        case "陰" :
+	                            //  ATR1 = STRLSB(gtkn)
+	                            ATR1 = STRLSB(gtkn);
+	                            break;
+	                    }  // End Select
+	                    // Response.Write(gtkn)
+	                }
+	                else {
+	                    if ((tkpn== tkpn2) && (sexy == sexy2)) { // Then
+	                        switch (xy) {
+	                            // Select Case xy
+	                            case "陽" :
+	                                ATR1 = STRLSF(gtkn);
+	                                break;
+	                            case "陰":
+	                                ATR1 = STRLSB(gtkn);
+	                                break;
+	                        }  // End Select
+	                        // Response.Write(gtkn)
+	                        // End If
+	                    }
+	                    else  {
+	                        switch (xy) {
+	                            // Select Case xy
+	                            case "陽" :
+	                                ATR1 = STRLSF(sbtn);
+	                                break;
+	                            case "陰" :
+	                                ATR1 = STRLSB(sbtn);
+	                                break;
+	                        } // End Select
+	                        // Response.Write(sbtn)
+	                    }  //End If
+	                } //  End If
+	            //return parseInt(gtkn + tksn);
+	            //return (gtkn + tksn)+sbtn+"tst"+tkps; 
+	          return ATR1;
+	                //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	                // Response.Write(tkps + xy + ATR1[5])
+	                //Response.Write(sbtn)
+	            } //  End Function
+        </script>      
+      	
+       <!--第三頁-->
+    	<script>
+	    function cald() {
+	        //  <%
+	        //  var TNo1 ,TNo2, TNo3,No1 ,No2, No3
+	        // TNo1 = Request("Name")
+	        // TNo2 = Request("Tel")
+	        // TNo3 = Request("Add")
+	        // No1 = Cint(TNo1)
+	        // No2 = Cint(TNo2)
+	        //  No3 = Cint(TNo3)   %>
+	        //var opd = document.form14_1_2.opd1;
+	        // var NNo1 = parseInt(opd.value);
+	        var opd = document.form14_1_2.opd1;
+	        var Name = (opd.value);
+	        opd = document.form14_1_2.opd2;
+	        var Nsex = (opd.value);
+	        opd = document.form14_1_2.deptb;
+	        var No3 = parseInt(opd.value);
+	        //''var utcDate = FRPK(NNo1 , No2 , No3 );
+	        //''var utcDatn = utcDate.substr(2, 1);
+	        opd = document.form14_1_2.depty;
+	        var No4 = parseInt(opd.value);
+	        //var No4 = (opd.value);
+	        opd = document.form14_1_2.depth;
+	        var No5 = (opd.value);
+	        opd = document.form14_1_2.deptn;
+	        var No6 = parseInt(opd.value);
+	        //var opd = document.form14_1_2.opd1;
+	        //var No1 = parseInt(opd.value);
+	        //''var No1 = utcDatn;
+	        // var op = document.getElementById("plus");
+	        //   var SND =Array(  
+	        //Dim M, Selectr ,Selects ,Selected(5) ,Selectk ,Selectd6
+	        var Selectk, Selectd6;
+	        var Selected = new Array(5);
+	        var ZNAM = Array("坤", "艮", "坎", "巽", "震", "離", "兌", "乾", "坤");
+	        var ZNUM = Array("0,0,0", "0,0,1", "0,1,0", "0,1,1", "1,0,0", "1,0,1", "1,1,0", "1,1,1", "0,0,0");
+	        var ZNAMM = Array("地", "山", "水", "風", "雷", "火", "澤", "天", "地");
+	        //'Dim No1 ,No2, No3
+	        var i, j, k, m, n;
+	        var CGNo1, CGNo2, MGN1, MGN11, MGN2, MGN22, MDN3, MDN33;
+	        var GNam1, GNam2, MGNam1, MGNam2;
+	        var GNum1, GNum2;
+	        // var Ldpos = new Array(3);
+	        var GNum1s = new Array(2), GNum2s = new Array(2);
+	        var No12;
+	        var FGANK, FGCNK;
+	        // var Ldpos = new Array(3);
+	        var FGAN = new Array(5), FGCN = new Array(5);
+	        var FGAH = new Array(5), FGCH = new Array(5);
+	        var FGACK, FGCCK;
+	        /////////////////////''''''''''''''''''''''''''''' 
+	        var Selectr = Randize();
+	        var o = document.getElementById("output");
+	        // o.innerHTML = "運算結果如下: " + Selectr;
+	       // o.innerHTML = "運算結果如下: " + No4 + No5 + No6;
+	        var Rw2 = " ";
+	        var Selects = new Array(6);
+	        for (m = 1 ; m <= 50; m++) {
+	            //For M = 1 to 50
+	            var Selectr = Randize();
+	            // var o = document.getElementById("output");
+	            // o.innerHTML = "運算結果如下: " + Selectr;
+
+	            //''Selects = Split(Selectr , ";")
+	            Selects = Selectr.split(";");
+	            for (i = 0 ; i <= 5 ; i++) {
+	                Selected[i] = Selects[i];
+	            };  // Next
+	            Selectd6 = Selects[6];
+	            /// '''''''''''''''''''''''''''
+	            //  var o = document.getElementById("output");
+	            //   o.innerHTML = "運算結果如下: " +Selects[5];
+	            //CGNo1 = Math.floor(No1 % 8);
+	            CGNo1 = 8 - Math.floor(No1 % 8);
+	            GNam1 = ZNAMM[CGNo1];
+	            GNum1 = ZNUM[CGNo1];
+	            // GNum1s = split(GNum1, ",");
+	            // GNum1s[2] = GNum1.substr(4, 1);
+	            GNum1s = GNum1.split(",");
+	            No12 = Math.floor(No1) + Math.floor(No2);
+	            CGNo2 = 8 - Math.floor(No12 % 8);
+	            GNam2 = ZNAMM[CGNo2];
+	            GNum2 = ZNUM[CGNo2];
+	            // GNum2s = SPLIT(GNum2, ",");
+	            // GNum2s[1] = GNum2.substr(2, 1);
+	            GNum2s = GNum2.split(",");
+	            // // ''FGAN(5)=GNum1s+GNum2s
+
+
+	            /// For i=0 to 2
+	            // for (i = 0 ; i <= 2; i++) {
+	            //    FGAN[i] = GNum1s[i];
+	            //    FGAN[i + 3] = GNum2s[i];
+	            // };   ///Next
+	            // For j=0 to 5
+	            for (j = 0 ; j <= 5; j++) {
+	                Selectk = (Selected[j] % 2)
+	                switch (Selectk) {
+	                    case 1:
+	                        FGAN[j] = "1";
+	                        FGAH[j] = "一 ";
+	                        break;
+	                    case 0:
+	                        FGAN[j] = "0";
+	                        FGAH[j] = "- -";
+	                        break;
+	                }
+	                FGCN[j] = Selected[j];
+	            };// Next
+	            //  var o = document.getElementById("output");
+	            //   o.innerHTML = "運算結果如下: " + FGCN[5] + FGAH[3];
+	            /// For j=0 to 5
+	            //  Select Case FGANK ;
+	            //    if (FGANK == "1") {
+	            //        FGAH[j] = "一 ";
+	            //    } else {
+	            //        FGAH[j] = "- -";
+	            //     }
+	            MDN3 = Math.floor(Selectd6 % 6)
+	            if (MDN3 == 0) { // then
+	                MDN33 = 5;
+	            } else {
+	                MDN33 = MDN3 - 1;
+	            } //end if  
+	            for (k = 0 ; k <= 5; k++) {
+	                // For k=0 to 5
+	                //''  if k=Int(MDN33) then 
+	                if (k == Math.floor(MDN33)) {    //Then
+	                    FGANK = FGAN[k];
+	                    //  Select Case FGANK ;
+	                    switch (FGANK) {
+	                        case "1":
+	                            FGCN[k] = "0";
+	                            break;
+	                        case "0":
+	                            FGCN[k] = "1";
+	                            break;
+	                    }
+	                } else {
+	                    FGCN[k] = FGAN[k];
+	                } // end if  
+	            }; // Next 
+
+	            for (n = 0 ; n <= 5; n++) {
+	                FGCNK = FGCN[n];
+	                //  Select Case FGCNK ;
+	                switch (FGCNK) {
+	                    case "1":
+	                        FGCH[n] = "一 ";
+	                        break;
+	                    case "0":
+	                        FGCH[n] = "- -";
+	                        break;
+	                }
+	            };  ///next
+	            // var o = document.getElementById("output");
+	            //  o.innerHTML = "運算結果如下: " +  FGCH[5];
+	            // '''Response.Write   "<TD>"&"卦序號=8-(卦碼號)"& MGN2 & MGN1  & "</TD>"
+	            MGAN2 = 4 * FGAN[3] + 2 * FGAN[4] + 1 * FGAN[5];
+	            // 'CGCN22= 8-(CGCN2 % 8)
+	            MGAN22 = Math.floor(MGAN2 % 8);
+	            MGANam2 = ZNAMM[MGAN22];
+	            MGAN1 = 4 * FGAN[0] + 2 * FGAN[1] + 1 * FGAN[2];
+	            // ' CGCN11= 8-(CGCN1 % 8)
+	            MGAN11 = Math.floor(MGAN1 % 8);
+	            MGANam1 = ZNAMM[MGAN11];
+	            //////////////////////
+	            MGCN2 = 4 * FGCN[3] + 2 * FGCN[4] + 1 * FGCN[5];
+	            // 'CGCN22= 8-(CGCN2 % 8)
+	            MGCN22 = Math.floor(MGCN2 % 8);
+	            MGCNam2 = ZNAMM[MGCN22];
+	            MGCN1 = 4 * FGCN[0] + 2 * FGCN[1] + 1 * FGCN[2];
+	            // ' CGCN11= 8-(CGCN1 % 8)
+	            MGCN11 = Math.floor(MGCN1 % 8);
+	            MGCNam1 = ZNAMM[MGCN11];
+	            // var o = document.getElementById("output");
+	            //  o.innerHTML = "運算結果如下: " + MGCNam1+ MGCNam2;
+
+	            if (No1 == MGAN11 | No1 == MGAN22) { // Then
+	                // If No1= MGAN11 or No1= MGAN22 Then
+	                //''  FGACK= QueryDataAndSendTo(GNam1,GNam2)
+	                FGACK = QueryDataAndSendT(MGANam1, MGANam2);
+	                FGCCK = QueryDataAndSendT(MGCNam1, MGCNam2);
+	                //'' FGCCK=PKCOD(MGNam1,MGNam2)
+	                // FGACK = QueryDataAndSendT(GNam1, GNam2);
+	                //FGCCK = QueryDataAndSendT(MGNam1, MGNam2);
+	                //'' Dim Rw0 ="<CENTER><TABLE Border=1 BGCOLOR=#FFFF00 >"&"<TR>"&"<TD width=30>下(內)上(外)卦三爻數"&"</TD>"&"<TD width =30>變爻</TD>"&"<TD width =30>成卦名</TD>"&"<TD width =30>之卦名</TD>"&"</TR>"
+	                //   var o = document.getElementById("output");
+	                //  o.innerHTML = "運算結果如下: " +  FGCCK;
+	                //var Rw1 = "<TR style='writing-mode:lr'>" + "<TD width=160>" + (Selected.join()) + "</TD>" + "<TD width =50>" + Selectd6 + "</TD>" + "<TD width =80>" + FGACK + "</TD>" + "<TD width =80>" + FGCCK + "</TD>" + "</TR>";
+	                var Rw1 = "<TR style='writing-mode:lr'>" + "<TD width=160>" + (Selected.join()) + "</TD>" + "<TD width =50>" + Selectd6 + "</TD>" + "<TD width =80>" + FGACK + "</TD>" + "<TD width =80>" + FGCCK + "</TD>" + "</TR>";
+	                // var Rw1 = "<TR style='writing-mode:lr'>" + "<TD width=160>" + (Selected.join()) + "</TD>" + "<TD width =50>" + Selectd6 + "</TD>" + "<TD width =80>" + FGACK + "</TD>" + "<TD width =80>" + FGCCK + "</TD>" + "</TR>";
+	                Rw2 = Rw2 + Rw1;
+	                // ' Dim RwT=Rw0+Rw1
+	                // ''Response.Write (RwT)
+	            } //  End If 
+	            //'' Next(for M= 1 to 50)
+	        };  // Next 
+	        //   var o = document.getElementById("output");
+	        //  o.innerHTML = "運算結果如下: " +  Rw2;
+	        var Rw0 = "<CENTER><TABLE Border=1 >" + "<TR style='writing-mode:bt-rl'>" + "<TD width=160>下上(內外)卦" + "</TD>" + "<TD width =50>變爻</TD>" + "<TD width =60>成卦</TD>" + "<TD width =60>之卦</TD>" + "</TR>";
+	        //''Dim Rw1 = "<TR>" & "<TD width=30>" & ( Join(Selected)) & "</TD>"& "<TD width =30>" & Selectd6 & "</TD>"& "<TD width =30>" & FGACK & "</TD>"& "<TD width =30>" & FGCCK & "</TD>"& "</TR>"&"</TABLE>"
+	        // ''Dim Rw2 = "<TR>"&"<TD width=76 >" & FGACK & "</TD>"&"<TD>" & "</TD>" & "<TD width=30  >"& (MDN33+1) & "</TD>"&"<TD width=76>"& FGCCK &"</TD>"&"</TR>"&"</TABLE>"
+	        var RwT = Rw0 + Rw2 + "</TABLE>";
+	        // Response.Write(RwT)
+	        //var parDate = Date.parse("1 , 1, 1995") / 86400000 + 21185 + 12;
+	        // The Date.parse() method parses a string representation of a date,
+	        // and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
+	        // need to add 25567 dates(70year) since January 1, 1900, 00:00:00 UTC.
+	        // Returns 807937200000 in time zone GMT-0300, and other values in other
+	        //The following statement creates a Date object using UTC instead of local time:
+	        // var utcDate = new Date(Date.UTC(96, 11, 1, 0, 0, 0));
+	        //var utcDate = Date.UTC(95, 0, 1, 0, 0, 0) / 86400000 + 21185 + 12;
+	        //var utcDate = Date.UTC(12, 0, 1, 0, 0, 0) / 86400000+25567 ;since January 1, 1900, 00:00:00 UTC.
+	        //var parDate = Date.parse("1 , 1, 1912") / 86400000 + 25567;
+	        // var utcDate = Date.UTC(1912, 0, 1, 0, 0, 0) / 86400000 + 25567 - 4382; //since January 1, 1912, 00:00:00 UTC.
+	        // var parDate = Date.parse("1 , 1, 1912") / 86400000 + 25567 - 4382;
+	        // var utcDate = FRPK(2012, 6, 17);
+
+	        //227  var o = document.getElementById("output");
+	        //228    o.innerHTML = "運算結果如下: " +  RwT;
+	        // o.innerHTML = "運算結果如下: "+utcDatn + utcDate;
+
+	        ////// ///////////////////////////////////////////////////////////////// 
+	        var Row0 = "<CENTER><TABLE Border=1 BGCOLOR=#FFFF00 >" + "<TR>" + "<TD width=30>卦名" + "</TD>" + "<TD width=30>成卦</TD>" + "<TD width =30>變爻</TD>" + "<TD width =30>卦名</TD>" + "<TD width =30>之卦</TD>" + "</TR>";
+	        var Row1 = "<TR >" + "<TD width=30  RowSpan=3 ColSpan=1>" + GNam2 + "</TD>" + "<TD width=30>" + FGAH[5] + "</TD>" + "<TD width=30  >" + "</TD>" + "<TD width =30 RowSpan=3 ColSpan=1>" + MGNam2 + "</TD>" + "<TD width =30>" + FGCH[5] + "</TD>" + "</TR>";
+	        var Row2 = "<TR>" + "<TD width=30>" + FGAH[4] + "</TD>" + "<TD width=30  >" + "</TD>" + "<TD width =30>" + FGCH[4] + "</TD>" + "</TR>";
+	        var Row3 = "<TR>" + "<TD width=30>" + FGAH[3] + "</TD>" + "<TD width=30>" + "</TD>" + "<TD width =30>" + FGCH[3] + "</TD>" + "</TR>";
+	        var Row4 = "<TR >" + "<TD width=30  RowSpan=3 ColSpan=1>" + GNam1 + "</TD>" + "<TD width=30>" + FGAH[2] + "</TD>" + "<TD width=30  >" + "</TD>" + "<TD width =30 RowSpan=3 ColSpan=1>" + MGNam1 + "</TD>" + "<TD width =30>" + FGCH[2] + "</TD>" + "</TR>";
+	        var Row5 = "<TR>" + "<TD width=30>" + FGAH[1] + "</TD>" + "<TD width=30  >" + "</TD>" + "<TD width =30>" + FGCH[1] + "</TD>" + "</TR>";
+	        var Row6 = "<TR>" + "<TD width=30>" + FGAH[0] + "</TD>" + "<TD width=30>" + "</TD>" + "<TD width =30>" + FGCH[0] + "</TD>" + "</TR>";
+	        var Row7 = "<TR >" + "<TD width=76 >" + FGACK + "</TD>" + "<TD>" + "</TD>" + "<TD width=30  >" + (MDN33 + 1) + "</TD>" + "<TD width=76>" + FGCCK + "</TD>" + "</TR>";
+	        var Row8 = "<TR style='writing-mode:bt-rl' width =150>" + "尊重著作權:<u>免費分享</u>" + "</TR>" + "</TABLE>";
+	        var Row9 = "<CENTER><H2><FONT color=#FF0000>" + "若需要<u>卦 盤 評 論 表</u>" + "</FONT><HR></H2>";
+	        var Row10 = "<CENTER><H2><FONT color=#FF0000>" + "    請 Email:  tech.t1206@gmail.com 即可聯絡,  謝謝" + "</FONT><HR></H2>";
+	        // var RowT = Row0 + Row1;
+	        var RowT = Row0 + Row1 + Row2 + Row3 + Row4 + Row5 + Row6 + Row7 + Row8 + Row9 + Row10;
+	        // document.Write(RowT);
+	        // var msg = document.getElementById("msg");
+	        //   if (msg.checked) {
+	        //       alert("運算結果: " + RowT);
+	        // }
+	        //  else {
+	        ///  var o = document.getElementById("output");
+	        ///  o.innerHTML = "運算結果如下: " + RowT;
+	        //  }
+
+	    }  //End function
+	    ////////////////////////////////////////////////......... 
+	    function FRPK(yea, mx, podd) {
+	        //   Dim SolarTerm() = {"小寒","大寒","立春","雨水","驚蟄","春分","清明","穀雨","立夏","小滿","芒種","夏至","小暑","大暑","立秋","處暑","白露","秋分","寒露","霜降","立冬","小雪","大雪","冬至"}
+	        //    Dim dStr1() = {"日","一","二","三","四","五","六","七","八","九","十"}
+	        var PKA = new Array("坤", "艮", "坎", "巽", "震", "離", "兌", "乾", "坤");
+	        //'' var FRLGA() = {spnTermd(Syrn - 1, 24), spnTermd(Syrn, 3), spnTermd(Syrn, 6), spnTermd(Syrn, 9), spnTermd(Syrn, 12), _
+	        // ''     spnTermd(Syrn, 15), spnTermd(Syrn, 18), spnTermd(Syrn, 21), spnTermd(Syrn, 24)}
+	        // var FRLGA = new Array(8);
+	        // var j, i;
+	        var k;
+	        var y = yea, m = mx, i = podd;
+	        var Cpk, Cpkn;
+	        var rtn, Symd;
+	        var mt = ((mx < 10) ? "0" : "") + mx;
+	        var dt = ((podd < 10) ? "0" : "") + podd;
+	        Symd = yea + "/" + mt + "/" + (dt + 1);
+	        // On Error Resume Next
+	        // FRLGA[0] = spnTermd(yea - 1, 24)    ///''''前冬至日''
+	        // FRLGA[0] = jieqi(yea - 1, 24 - 1);    ///''''前冬至日''
+	        // ' FRLGA(1) = spnTermd(Syr, 3)
+	        //''''var dayCyclical = Date.UTC(y,m,1,0,0,0,0)/86400000+21185+12
+	        // The Date.parse() method parses a string representation of a date, 
+	        //and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
+	        // need to add 25567 dates(70year) since January 1, 1900, 00:00:00 UTC.
+	        // Returns 807937200000 in time zone GMT-0300, and other values in other
+	        //var utcDate = Date.UTC(12, 0, 1, 0, 0, 0) / 86400000+25567 ;since January 1, 1900, 00:00:00 UTC.
+	        //var parDate = Date.parse("1 , 1, 1912") / 86400000 + 25567;
+	        var utcDate = Date.UTC(1912, 0, 1, 0, 0, 0) / 86400000 + 25567 - 4382; //since January 1, 1912, 00:00:00 UTC.
+	        var parDate = Date.parse("1 , 1, 1912") / 86400000 + 25567 - 4382;
+	        //"運算結果如下: "  Math.floor(parDate+1) "=" utcDate;
+	        // Dim D1D,D2D,DCA,DCD,DCLD 
+	        // Dim thisfstW, thisln ,term2 
+	        //  Dim  Syerp,Smohp,Sdatp
+	        //  D1D=  #01/07/1912#  '''"節氣日"
+	        // D2D=  #01/01/1912#   //'''"化國曆之起日"''D2L= #1912/2/18#'''化農曆之起日'' 
+	        //  sDO2=DateSerial(y,m,1)
+	        //  ''sDO2=sDObj = new Date(y,m,1,0,0,0,0) 
+	        //  ''DCY=DateDiff("yyyy", D1D, sDO2)
+	        //  ''DCN=DateDiff("n", D1D, sDO2)
+	        // FRLGA[0] = spnTermd(yea - 1, 24)    ///''''前冬至日''
+	        //''  FRLGA[0] = jieqi(yea - 1, 24 - 1);    ///''''前冬至日''
+	        // terms=spnTerm(y,12)  '''''''今夏至日'''
+	        //  termw1=spnTerm(y-1,24)  ''''前冬至日'''
+	        //  termw2=spnTerm(y,24)  ''''''今冬至日'''
+	        // var  terms = jieqi(y, 12);      //'''''''今夏至日'''
+	        var perms = jieqi(y, 12 - 1);      //'''''''今夏至日'''
+	        var permw1 = jieqi(y - 1, 24 - 1);   //''''前冬至日'''
+	        var permw2 = jieqi(y, 24 - 1);     //''''''今冬至日'
+	        var terms = perms.substr(8.2);      //'''''''今夏至日'''
+	        var termw1 = permw1.substr(8, 2);   //''''前冬至日'''
+	        var termw2 = permw1.substr(8, 2);
+	        // D2D=  #01/01/1912#   //'''"化國曆之起日"''D2L= #1912/2/18#'''化農曆之起日'' 
+	        //  sDO2=DateSerial(y,m,1) //var res = str.substr(1, 4) 
+	        // DCLD=DateDiff("d", D2D, sDO2)+12
+	        // sDOs=DateSerial(y,6,terms)
+	        // sDOw1=DateSerial(y-1,12,termw1)
+	        // sDOw2=DateSerial(y,12,termw2)
+	        // DCLDs=DateDiff("d", D2D, sDOs)+12
+	        // DCLDw1=DateDiff("d", D2D, sDOw1)+12
+	        // DCLDw2=DateDiff("d", D2D, sDOw2)+12
+	        // var DCLD = Date.parse("m , 1, y")/86400000 + 25567 - 4382+12;
+	        //  var DCLDs = Date.parse("6,terms, y")/86400000 + 25567 - 4382+12;
+	        //  var DCLDw1= Date.parse("12,termw1, y-1")/86400000 + 25567 - 4382+12;
+	        //  var DCLDw2 = Date.parse("12,termw2, y")/86400000 + 25567 - 4382 + 12;
+	        var DCLD = Date.UTC(y, m - 1, 1, 0, 0, 0) / 86400000 + 25567 - 4382 + 12;
+	        var DCLDs = Date.UTC(y, 6 - 1, terms, 0, 0, 0) / 86400000 + 25567 - 4382 + 12;
+	        var DCLDw1 = Date.UTC(y - 1, 12 - 1, termw1, 0, 0, 0) / 86400000 + 25567 - 4382 + 12;
+	        var DCLDw2 = Date.UTC(y, 12 - 1, termw2, 0, 0, 0) / 86400000 + 25567 - 4382 + 12;
+
+	        //''' Cm= GanZhi((Ly-1912)*12+Lm+37)
+	        // Cd = GanZhi(DCLD+i-1)
+	        if ((DCLD + i - 1) >= DCLDw2) { // Then
+	            k = (DCLD + i - 1) - DCLDw2;
+	            Cpk = PKA[7 - (k % 8)];
+	            Cpkn = Math.floor(7 - (k % 8));
+	        }
+	        else {
+	            if ((DCLD + i - 1) >= DCLDs) { // Then
+	                k = (DCLD + i - 1) - DCLDs;
+	                Cpk = PKA[k % 8];
+	                Cpkn = Math.floor(k % 8);
+	            }
+	            else {
+	                if ((DCLD + i - 1) >= DCLDw1) { // Then
+	                    k = (DCLD + i - 1) - DCLDw1;
+	                    Cpk = PKA[7 - (k % 8)];
+	                    Cpkn = Math.floor(7 - (k % 8));
+	                }
+	                else {
+	                    // Response.write("沒日八卦")
+	                    alert("沒日八卦");
+	                    return false;
+	                }
+	            }
+	        }
+	        //return (Cpk+";" + DCLD);
+	        return (Cpk + ":" + Cpkn);
+	        // return Cpk;
+	    }  //End function          
+
+	    ////////////////////////////////////////////////////////////////////
+	    function Randize() {
+	        var Num = Array("01", "02", "03", "04", "05", "06", "07",
+                   "08", "09", "10", "11", "12", "13", "14",
+                   "15", "16", "17", "18", "19", "20", "21",
+                   "22", "23", "24", "25", "26", "27", "28",
+                   "29", "30", "31", "32", "33", "34", "35",
+                   "36", "37", "38");
+	        var Selectdd = new Array(5);
+	        var M, I, K, D, Selectdk, Selectdd6, randt1, randt2;
+	        //  For I = 0 To 5
+	        for (I = 0; I <= 5 ; I++) {
+	            //'' Selectdd(I) = Fix(Rnd * 38)+1
+	            D = Math.floor(Math.random() * (38 - I)); //Fix(Rnd * (38-I))   ///'' 從(矩陣Num) 38-I 號中選出一號
+	            Selectdd[I] = Num[D];
+	            Num[D] = "9999";
+	            Num.sort();  //Array.Sort(Num);
+	        };  // Next
+	        Selectdd.sort();  //  Array.Sort( Selectdd )
+	        Selectdd6 = Math.floor(Math.random() * 8 + 1);  // Fix(Rnd * 8)+1  //''' 從 01-08 號中選出一號
+
+	        //''Lunar= thisyr&";"& thismth&";"&thisday&";"&thisLeap
+	        randt1 = Selectdd[0] + ";" + Selectdd[1] + ";" + Selectdd[2] + ";" + Selectdd[3] + ";" + Selectdd[4] + ";" + Selectdd[5] + ";" + Selectdd6;
+	        return randt1;
+	        //return Math.floor(Math.random() * 38);
+	    } // END FUNCTION
+	    ////////////////////////////''''''''''''''''''''''''
+	    function QueryDataAndSendT(XNam1, XNam2) {
+	        //   var SND =Array(  
+	        var ZNAM1 = Array("地", "天", "澤", "火", "雷", "風", "水", "山", "地");
+	        var ZNAM2 = Array("地", "天", "澤", "火", "雷", "風", "水", "山", "地");
+	        // var Ldpos = new Array(3);
+	        //''var ZNAMT8(8), ZNAMT7(8), ZNAMT6(8), ZNAMT5(8), ZNAMT4(8), ZNAMT3(8), ZNAMT2(8), ZNAMT1(8), ZNAMT0(8) As Array
+	        //''var ZNAMT(8, 8) As Array
+	        var ZNAMT0 = Array("坤為地", "天地否", "澤地萃", "火地晉", "雷地豫", "風地觀", "水地比", "山地剝", "坤為地");
+	        var ZNAMT1 = Array("地天泰", "乾為天", "澤天夬", "火天大有", "雷天大壯", "風天小畜", "水天需", "山天大畜", "地天泰");
+	        var ZNAMT2 = Array("地澤臨", "天澤履", "兌為澤", "火澤睽", "雷澤歸妹", "風澤中孚", "水澤節", "山澤損", "地澤臨");
+	        var ZNAMT3 = Array("地火明夷", "天火同人 ", "澤火革", "離為火", "雷火豐", "風火家人", "水火既濟", "山火賁", "地火明夷");
+	        var ZNAMT4 = Array("地雷復", "天雷無妄", "澤雷隨", "火雷噬嗑", "震為雷", "風雷益", "水雷屯", "山雷頤", "地雷復");
+	        var ZNAMT5 = Array("地風升", "天風姤", "澤風大過", "火風鼎", ",雷風恆", "巽為風 ", "水風井", "山風蠱", "地風升");
+	        var ZNAMT6 = Array("地水師", "天水訟", "澤水困", "火水未濟", "雷水解", "風水渙", "坎為水", "山水蒙", "地水師");
+	        var ZNAMT7 = Array("地山謙", "天山遯", "澤山咸 ", "火山旅", "雷山小過", "風山漸", "水山蹇", "艮為山", "地山謙");
+	        var ZNAMT8 = Array("坤為地", "天地否", "澤地萃", "火地晉", "雷地豫", "風地觀", "水地比", "山地剝", "坤為地");
+	        var ZNAMDA = new Array(
+            "坤為地", "天地否", "澤地萃", "火地晉", "雷地豫", "風地觀", "水地比", "山地剝", "坤為地",
+            "地天泰", "乾為天", "澤天夬", "火天大有", "雷天大壯", "風天小畜", "水天需", "山天大畜", "地天泰",
+            "地澤臨", "天澤履", "兌為澤", "火澤睽", "雷澤歸妹", "風澤中孚", "水澤節", "山澤損", "地澤臨",
+            "地火明夷", "天火同人 ", "澤火革", "離為火", "雷火豐", "風火家人", "水火既濟", "山火賁", "地火明夷",
+            "地雷復", "天雷無妄", "澤雷隨", "火雷噬嗑", "震為雷", "風雷益", "水雷屯", "山雷頤", "地雷復",
+            "地風升", "天風姤", "澤風大過", "火風鼎", "雷風恆", "巽為風 ", "水風井", "山風蠱", "地風升",
+            "地水師", "天水訟", "澤水困", "火水未濟", "雷水解", "風水渙", "坎為水", "山水蒙", "地水師",
+            "地山謙", "天山遯", "澤山咸 ", "火山旅", "雷山小過", "風山漸", "水山蹇", "艮為山", "地山謙",
+            "坤為地", "天地否", "澤地萃", "火地晉", "雷地豫", "風地觀", "水地比", "山地剝", "坤為地");
+
+	        //Dim ZNAMTT(8, 8)   // x[5][12] = 3.0;
+	        var ZNAMTT = new Array(8);
+	        var h, i, j, k, m, n;
+	        //For i = 0 To 8
+	        for (h = 0 ; h <= 8; h++) {
+	            ZNAMTT[h] = new Array(8);
+	        };   ///Next  
+	        for (h = 0 ; h <= 8; h++) {
+	            for (i = 0 ; i <= 8; i++) {
+	                ZNAMTT[h][i] = ZNAMDA[9 * h + i];
+	            };   ///Next
+	        };   ///Next  
+	        //  for (i = 0 ; i <= 8; i++) {
+	        //    ZNAMTT[0][i] = ZNAMT0[i] ;
+	        //    ZNAMTT[1][i] = ZNAMT1[i] ;
+	        //     ZNAMTT[2][i] = ZNAMT2[i] ;
+	        //    ZNAMTT[3][i] = ZNAMT3[i] ;
+	        //    ZNAMTT[4][i] = ZNAMT4[i] ;
+	        //     ZNAMTT[5][i] = ZNAMT5[i] ;
+	        //     ZNAMTT[6][i] = ZNAMT6[i] ;
+	        //     ZNAMTT[7][i] = ZNAMT7[i] ;
+	        //     ZNAMTT[8][i] = ZNAMT8[i] ;
+	        //    };   // Next
+	        for (j = 0 ; j <= 8; j++) {
+	            if (ZNAM1[j] == XNam1) {    //Then
+	                m = j;
+	                break;
+	            }
+	            // break;
+	        }
+	        // For j = 0 To 8
+	        // If ZNAM1(j) = XNam1 Then
+	        //m = j
+	        // Exit For
+	        // End If
+	        // Next
+	        for (k = 0 ; k <= 8; k++) {
+	            if (ZNAM1[k] == XNam2) {    //Then
+	                n = k;
+	                break;
+	            }
+	            //  break;
+	        }
+	        return (ZNAMTT[m][n]);
+	        // return (m+n);
+	    } // End Function
+
+	    /////////////////////////////////////////////////////////////
+
+	    //var today=new Date();
+	    //yr=today.getFullYear();
+	    //document.getElementById("in1").value=yr;
+
+	    var ptsa = new Array(485, 203, 199, 182, 156, 136, 77, 74, 70, 58, 52, 50, 45, 44, 29, 18, 17, 16, 14, 12, 12, 12, 9, 8)
+	    var ptsb = new Array(324.96, 337.23, 342.08, 27.85, 73.14, 171.52, 222.54, 296.72, 243.58, 119.81, 297.17, 21.02, 247.54, 325.15, 60.93, 155.12, 288.79, 198.04, 199.76, 95.39, 287.11, 320.81, 227.73, 15.45)
+	    var ptsc = new Array(1934.136, 32964.467, 20.186, 445267.112, 45036.886, 22518.443, 65928.934, 3034.906, 9037.513, 33718.147, 150.678, 2281.226, 29929.562, 31555.956, 4443.417, 67555.328, 4562.452, 62894.029, 31436.921, 14577.848, 31931.756, 34777.259, 1222.114, 16859.074)
+	    var jq = new Array("春分", "清明", "穀雨", "立夏", "小滿", "芒種", "夏至", "小暑", "大暑", "立秋", "處暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至", "小寒", "大寒", "立春", "雨水", "驚蟄")
+	    var jdez = new Array(30);
+	    var jdjq = new Array(26);
+
+
+	    function jieqi(inl, k) {
+	        var i, ptb, dt;
+	        var ini = 0, num = 26;
+	        //var yr=in1.value-0;
+	        var yr = inl - 0;
+	        if (yr < -7000 || yr > 7000) {
+	            alert("超出&#35745;算能力");
+	            return false;
+	        }
+
+	        if (yr < -1000 || yr > 3000) {
+	            alert("适用于西元-1000年至西元3000年，超出此范&#22260;&#35823;差&#36739;大");
+	        }
+	        //var jd=VE(yr);
+	        //var ty=VE(yr+1)-jd;
+	        var jdpjq = new Array, jqc;
+	        var jtd = new Array;
+	        var jqcd = new Array;
+	        var out = "";
+	        XGetPureJQsinceSpring(yr, ptsa, ptsb, ptsc, jdpjq);
+	        //for(i=0;i<12;i++){
+	        //jqc=jq[(2*i+21)%24]+":";
+	        for (i = 0; i < 24; i++) {
+	            jqc = jq[(i + 19) % 24] + ":";
+	            jt = XJtime(false, jdpjq[i]);
+	            out += jqc + jt + "\r\n";
+	            jqcd[i] = jq[(i + 19) % 24] + ":";
+	            jtd[i] = XJtime(false, jdpjq[i]);
+
+	        }
+	        //return out ;
+	        return jtd[k];
+	        //return jqcd[k]+jtd[k] ;
+	        //show1.innerText=out;	//for IE
+	        //show1.textContent=out;	//for mozilla
+	    }  //End function
+	    function XGetPureJQsinceSpring(yy, ptsa, ptsb, ptsc, jdpjq) {
+	        var sjdjq = new Array;
+	        var yea = yy - 1;
+	        //GetAdjustedJQ(yea, 21, 3, sjdjq);   //求出含指定年立春開始之3個節氣JD值,以前一年的年值代入
+	        //轉移春分前之立春至驚蟄之節氣至jdpjq變數中，以重整index
+	        //jdpjq[0] =sjdjq[22]; jdpjq[1] =sjdjq[24];   //原此為立春 //此為驚蟄
+	        XGetAdjustedJQ(yea, 19, 5, sjdjq);   //求出含指定年小寒開始之5個節氣JD值,以前一年的年值代入
+	        jdpjq[0] = sjdjq[20];
+	        jdpjq[1] = sjdjq[21];
+	        jdpjq[2] = sjdjq[22];
+	        jdpjq[3] = sjdjq[23];
+	        jdpjq[4] = sjdjq[24];
+
+	        yea = yy;
+	        XGetAdjustedJQ(yea, 0, 26, sjdjq);       //求出指定年節氣之JD值,從驚蟄開始，到雨水
+	        //轉移春分至小寒之節氣至jdpjq變數中，以重整index
+	        //for(i=1;i<=13;i++){
+	        //jdpjq[i+1] = sjdjq[2 * i];
+	        for (i = 1; i <= 20; i++) {
+	            jdpjq[i + 4] = sjdjq[i];
+	        }
+	    }   // End function
+	    //副程式功能：對Perturbaton作調整後的自春分點開始的24節氣,可只取部份
+	    function XGetAdjustedJQ(yy, ini, num, jdjq) {
+	        var veb = XVE(yy);
+	        var ty = XVE(yy + 1) - veb;     //求指定年的春分點及回歸年長
+	        if (XMeanJQJD(yy, veb, ty, ini, num) == true) {	//輸入指定年,JD,回歸年長,求該回歸年各節氣之長
+	            for (i = ini + 1; i <= (ini + num) ; i++) {
+	                ptb = XPerturbation(jdez[i]);	//取得受perturbation影響所需微調
+	                dt = XDeltaT(yy, Math.floor(i / 2) + 3);	//修正dynamical time to Universal time
+	                jdjq[i] = jdez[i] + ptb - dt / 60 / 24;	//加上攝動調整值ptb，減去對應的Delta T值(分鐘轉換為日)
+	                jdjq[i] = jdjq[i] + 1 / 3;	//因中國時間比格林威治時間先行8小時，即1/3日
+	            }
+	        }
+
+	    } // End function
+	    function XVE(yy) {//&#35745;算指定年的春分&#28857;
+	        var yx = yy;
+	        if (yx >= 1000 && yx <= 8001) {
+	            var m = (yx - 2000) / 1000;
+	            jdve = 2451623.80984 + 365242.37404 * m + 0.05169 * m * m - 0.00411 * m * m * m - 0.00057 * m * m * m * m;
+	        }
+	        else {
+	            if (yx >= -8000 && yx < 1000) {
+	                m = yx / 1000;
+	                jdve = 1721139.29189 + 365242.1374 * m + 0.06134 * m * m + 0.00111 * m * m * m - 0.00071 * m * m * m * m;
+	            }
+	            else {
+	                alter("超出&#35745;算能力范&#22260;");
+	                return false;
+	            }
+	        }
+	        return jdve
+	    }  // End function
+
+	    function XMeanJQJD(yy, jdve, ty, ini, num) {
+	        var ath = 2 * Math.PI / 24;
+	        var tx = (jdve - 2451545) / 365250;
+	        var e = 0.0167086342 - 0.0004203654 * tx - 0.0000126734 * tx * tx + 0.0000001444 * tx * tx * tx - 0.0000000002 * tx * tx * tx * tx + 0.0000000003 * tx * tx * tx * tx * tx;
+	        var tt = yy / 1000;
+	        var vp = 111.25586939 - 17.0119934518333 * tt - 0.044091890166673 * tt * tt - 4.37356166661345E-04 * tt * tt * tt + 8.16716666602386E-06 * tt * tt * tt * tt;
+	        var rvp = vp * 2 * Math.PI / 360;
+	        var peri = new Array(30);
+	        var i;
+	        for (i = 1; i <= (ini + num) ; i++) {
+	            var flag = 0;
+	            var th = ath * (i - 1) + rvp;
+	            if (th > Math.PI && th <= 3 * Math.PI) {
+	                th = 2 * Math.PI - th;
+	                flag = 1;
+	            }
+	            if (th > 3 * Math.PI) {
+	                th = 4 * Math.PI - th;
+	                flag = 2;
+	            }
+	            var f1 = 2 * Math.atan((Math.sqrt((1 - e) / (1 + e)) * Math.tan(th / 2)));
+	            var f2 = (e * Math.sqrt(1 - e * e) * Math.sin(th)) / (1 + e * Math.cos(th));
+	            var f = (f1 - f2) * ty / 2 / Math.PI;
+	            if (flag == 1) f = ty - f;
+	            if (flag == 2) f = 2 * ty - f;
+	            peri[i] = f;
+	        }
+	        for (i = ini; i <= (ini + num) ; i++) {
+	            jdez[i] = jdve + peri[i] - peri[1];
+	        }
+	        return true;
+	    }
+
+	    function XPerturbation(jdez) {
+	        var t = (jdez - 2451545) / 36525;
+	        var s = 0;
+	        for (k = 0; k <= 23; k++) {
+	            s = s + ptsa[k] * Math.cos(ptsb[k] * 2 * Math.PI / 360 + ptsc[k] * 2 * Math.PI / 360 * t);
+	        }
+	        var w = 35999.373 * t - 2.47;
+	        var l = 1 + 0.0334 * Math.cos(w * 2 * Math.PI / 360) + 0.0007 * Math.cos(2 * w * 2 * Math.PI / 360);
+	        var ptb = 0.00001 * s / l;
+	        return ptb;
+	    }
+
+	    function XDeltaT(yy, mm) {
+	        var u, t, dt, y;
+	        y = yy + (mm - 0.5) / 12;
+
+	        if (y <= -500) {
+	            u = (y - 1820) / 100;
+	            dt = (-20 + 32 * u * u);
+	        }
+	        else {
+	            if (y < 500) {
+	                u = y / 100;
+	                dt = (10583.6 - 1014.41 * u + 33.78311 * u * u - 5.952053 * u * u * u - 0.1798452 * u * u * u * u + 0.022174192 * u * u * u * u * u + 0.0090316521 * u * u * u * u * u * u);
+	            }
+	            else {
+	                if (y < 1600) {
+	                    u = (y - 1000) / 100;
+	                    dt = (1574.2 - 556.01 * u + 71.23472 * u * u + 0.319781 * u * u * u - 0.8503463 * u * u * u * u - 0.005050998 * u * u * u * u * u + 0.0083572073 * u * u * u * u * u * u);
+	                }
+	                else {
+	                    if (y < 1700) {
+	                        t = y - 1600;
+	                        dt = (120 - 0.9808 * t - 0.01532 * t * t + t * t * t / 7129);
+	                    }
+	                    else {
+	                        if (y < 1800) {
+	                            t = y - 1700;
+	                            dt = (8.83 + 0.1603 * t - 0.0059285 * t * t + 0.00013336 * t * t * t - t * t * t * t / 1174000);
+	                        }
+	                        else {
+	                            if (y < 1860) {
+	                                t = y - 1800;
+	                                dt = (13.72 - 0.332447 * t + 0.0068612 * t * t + 0.0041116 * t * t * t - 0.00037436 * t * t * t * t + 0.0000121272 * t * t * t * t * t - 0.0000001699 * t * t * t * t * t * t + 0.000000000875 * t * t * t * t * t * t * t);
+	                            }
+	                            else {
+	                                if (y < 1900) {
+	                                    t = y - 1860;
+	                                    dt = (7.62 + 0.5737 * t - 0.251754 * t * t + 0.01680668 * t * t * t - 0.0004473624 * t * t * t * t + t * t * t * t * t / 233174);
+	                                }
+	                                else {
+	                                    if (y < 1920) {
+	                                        t = y - 1900;
+	                                        dt = (-2.79 + 1.494119 * t - 0.0598939 * t * t + 0.0061966 * t * t * t - 0.000197 * t * t * t * t);
+	                                    }
+	                                    else {
+	                                        if (y < 1941) {
+	                                            t = y - 1920;
+	                                            dt = (21.2 + 0.84493 * t - 0.0761 * t * t + 0.0020936 * t * t * t);
+	                                        }
+	                                        else {
+	                                            if (y < 1961) {
+	                                                t = y - 1950;
+	                                                dt = (29.07 + 0.407 * t - t * t / 233 + t * t * t / 2547);
+	                                            }
+	                                            else {
+	                                                if (y < 1986) {
+	                                                    t = y - 1975;
+	                                                    dt = (45.45 + 1.067 * t - t * t / 260 - t * t * t / 718);
+	                                                }
+	                                                else {
+	                                                    if (y < 2005) {
+	                                                        t = y - 2000;
+	                                                        dt = (63.86 + 0.3345 * t - 0.060374 * t * t + 0.0017275 * t * t * t + 0.000651814 * t * t * t * t + 0.00002373599 * t * t * t * t * t);
+	                                                    }
+	                                                    else {
+	                                                        if (y < 2050) {
+	                                                            t = y - 2000;
+	                                                            dt = (62.92 + 0.32217 * t + 0.005589 * t * t);
+	                                                        }
+	                                                        else {
+	                                                            if (y < 2150) {
+	                                                                u = (y - 1820) / 100;
+	                                                                dt = (-20 + 32 * u * u - 0.5628 * (2150 - y));
+	                                                            }
+	                                                            else {
+	                                                                u = (y - 1820) / 100;
+	                                                                dt = (-20 + 32 * u * u);
+	                                                            }
+	                                                        }
+	                                                    }
+	                                                }
+	                                            }
+	                                        }
+	                                    }
+	                                }
+	                            }
+	                        }
+	                    }
+	                }
+	            }
+	        }
+
+	        if (y < 1955 || y >= 2005) dt = dt - (0.000012932 * (y - 1955) * (y - 1955));
+	        var DeltaT = dt / 60;    //將秒轉換為分
+	        return DeltaT
+	    }
+
+	    function XJtime(op, jd) {//&#23558;儒略日&#36716;&#25442;&#20026;年月日&#26102;分秒
+	        if (jd >= 2299160.5 || op) {
+	            var y4h = 146097;
+	            var init = 1721119.5;
+	        }
+	        else {
+	            var y4h = 146100;
+	            var init = 1721117.5;
+	        }
+	        var jdr = Math.floor(jd - init);
+	        var yh = y4h / 4;
+	        var cen = Math.floor((jdr + 0.75) / yh);
+	        var d = Math.floor(jdr + 0.75 - cen * yh);
+	        var ywl = 1461 / 4;
+	        var jy = Math.floor((d + 0.75) / ywl);
+	        d = Math.floor(d + 0.75 - ywl * jy + 1);
+	        var ml = 153 / 5;
+	        mp = Math.floor((d - 0.5) / ml);
+	        d = Math.floor((d - 0.5) - 30.6 * mp + 1);
+	        var y = (100 * cen) + jy;
+	        var m = (mp + 2) % 12 + 1;
+	        if (m < 3) y = y + 1;
+	        var sd = Math.floor((jd + 0.5 - Math.floor(jd + 0.5)) * 24 * 60 * 60 + 0.00005);
+	        var mt = Math.floor(sd / 60);
+	        var ss = sd % 60;
+	        var hh = Math.floor(mt / 60);
+	        var mmt = mt % 60;
+	        var yy = Math.floor(y);
+	        var mm = Math.floor(m);
+	        var dd = Math.floor(d);
+	        var yc = "     " + yy;
+	        yc = yc.substr(yc.length - 5, 5);
+	        var dytm = yc; dytm += "年";
+	        dytm += ((mm < 10) ? "0" : "") + mm + "月";
+	        dytm += ((dd < 10) ? "0" : "") + dd + "日";
+	        dytm += ((hh < 10) ? "0" : "") + hh + "時&#26102;";
+	        dytm += ((mmt < 10) ? "0" : "") + mmt + "分";
+	        dytm += ((ss < 10) ? "0" : "") + ss + "秒";
+	        var mmt = ((mm < 10) ? "0" : "") + mm;
+	        var ddt = ((dd < 10) ? "0" : "") + dd;
+	        //return dytm;
+	        //return dd;
+	        return (yy + "/" + mmt + "/" + ddt);
+	        // document.Write(yy+"/"+ mmt+"/"+ ddt);
+	    }
+
+	    /////////////////////////////////////////////////////////////////
+    </script>   
+</body>
+</html>
